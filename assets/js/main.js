@@ -8,6 +8,7 @@ const scrollHeader = () =>{
 window.addEventListener('scroll', scrollHeader)
 
 /*=============== SWIPER POPULAR ===============*/
+// Função para mudar as imagens na seção Popular (projetos) conforme o clique no arrow
 var swiperPopular = new Swiper(".popular__container", {
 
       spaceBetween: 32,
@@ -21,8 +22,6 @@ var swiperPopular = new Swiper(".popular__container", {
         prevEl: ".swiper-button-prev",
       },
     });
-
-
 
 /*=============== VALUE ACCORDION ===============*/
 
