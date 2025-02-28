@@ -397,8 +397,14 @@ body.dark-theme {
   display: inline-flex;
   align-items: flex-end;
   bottom: -1.5rem;
+  /* margin-bottom: 520px; */
   box-shadow: 0 16px 32px hsl(228, 66%, .25);
 }
+
+/* Ajustar tamanho da imagem */
+/* .home__img img {
+  margin-bottom: -120px;
+} */
 
 /*=============== BUTTON ===============*/
 .button {
