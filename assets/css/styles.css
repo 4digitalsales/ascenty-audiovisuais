@@ -381,11 +381,22 @@ body.dark-theme {
   justify-content: center;
 }
 
-.home__orbe {
+/* .home__orbe {
   width: 265px;
   height: 284px;
   background: linear-gradient(180deg, hsl(0, 0%, 16%) 93%, hsl(0, 0%, 67%)100%);
   border-radius: 135px 135px 0 0;
+} */
+
+.home__orbe {
+    width: 250px; /* Igual à imagem */
+    height: 200px; /* Ajuste para o tamanho correto */
+    /* Mantém o gradiente */
+    /* background: linear-gradient(180deg, hsl(0, 0%, 16%) 93%, hsl(0, 0%, 67%)100%);  */
+    border-radius: 10px 10px 0 0; /* Ajustar arredondamento */
+    display: flex;
+    align-items: flex-end; /* Faz com que a imagem fique alinhada na parte inferior */
+    overflow: hidden; /* Evita espaços extras */
 }
 
 .home__img {
@@ -397,14 +408,14 @@ body.dark-theme {
   display: inline-flex;
   align-items: flex-end;
   bottom: -1.5rem;
-  /* margin-bottom: 520px; */
+  /* bottom: 5rem; */
   box-shadow: 0 16px 32px hsl(228, 66%, .25);
 }
 
 /* Ajustar tamanho da imagem */
 /* .home__img img {
-  margin-bottom: -120px;
-} */
+  margin-bottom: -5px;
+}  */
 
 /*=============== BUTTON ===============*/
 .button {
