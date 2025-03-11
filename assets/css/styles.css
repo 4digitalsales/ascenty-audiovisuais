@@ -1055,7 +1055,7 @@ body.dark-theme {
   }
   .nav__list{
     display: flex;
-    column-gap: 3rem;
+    column-gap: 1.5rem;
   }
   .nav__link{
     color: var(--text-color-light);
