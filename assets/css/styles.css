@@ -310,7 +310,7 @@ body.dark-theme {
 
 .home__container {
   padding-top: 4rem;
-  row-gap: 3.5rem;
+  row-gap: 9.5rem;
 }
 
 .home__title,
@@ -381,22 +381,11 @@ body.dark-theme {
   justify-content: center;
 }
 
-/* .home__orbe {
-  width: 265px;
+.home__orbe {
+  width: 250px;
   height: 284px;
   background: linear-gradient(180deg, hsl(0, 0%, 16%) 93%, hsl(0, 0%, 67%)100%);
-  border-radius: 135px 135px 0 0;
-} */
-
-.home__orbe {
-    width: 250px; /* Igual à imagem */
-    height: 200px; /* Ajuste para o tamanho correto */
-    /* Mantém o gradiente */
-    /* background: linear-gradient(180deg, hsl(0, 0%, 16%) 93%, hsl(0, 0%, 67%)100%);  */
-    border-radius: 10px 10px 0 0; /* Ajustar arredondamento */
-    display: flex;
-    align-items: flex-end; /* Faz com que a imagem fique alinhada na parte inferior */
-    overflow: hidden; /* Evita espaços extras */
+  border-radius: 20 20px 0 0;
 }
 
 .home__img {
@@ -408,14 +397,8 @@ body.dark-theme {
   display: inline-flex;
   align-items: flex-end;
   bottom: -1.5rem;
-  /* bottom: 5rem; */
   box-shadow: 0 16px 32px hsl(228, 66%, .25);
 }
-
-/* Ajustar tamanho da imagem */
-/* .home__img img {
-  margin-bottom: -5px;
-}  */
 
 /*=============== BUTTON ===============*/
 .button {
@@ -942,6 +925,10 @@ body.dark-theme {
     height: 264px;
   }
 
+  .home__container {
+      row-gap: 9.5rem;
+  }
+
   .logos__container {
     gap: 2rem 1rem;
   }
@@ -1115,8 +1102,8 @@ body.dark-theme {
   .home__img{
     width: 472px;
     height: 634px;
-    border-radius: 236px 236px 12px 12px;
-    bottom: 15rem;
+    /* border-radius: 236px 236px 12px 12px; */
+    bottom: 30rem;
   }
 
   .logos__img img{
@@ -1226,6 +1213,7 @@ body.dark-theme {
 
     .home__container {
       column-gap: 4rem;
+      row-gap: 10rem;
     }
 }
 
