@@ -310,7 +310,7 @@ body.dark-theme {
 
 .home__container {
   padding-top: 4rem;
-  row-gap: 9.5rem;
+  row-gap: 22rem;
 }
 
 .home__title,
@@ -398,6 +398,18 @@ body.dark-theme {
   align-items: flex-end;
   bottom: -1.5rem;
   box-shadow: 0 16px 32px hsl(228, 66%, .25);
+}
+
+.home__img video {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  /* border-radius: 125px 125px 12px 12px; */
+  display: inline-flex;
+  align-items: flex-end;
+  /* bottom: -2.5rem; */
+  /* box-shadow: 0 16px 32px hsl(228, 66%, .25); */
 }
 
 /*=============== BUTTON ===============*/
@@ -748,6 +760,49 @@ body.dark-theme {
   background: var(--first-color);
 }
 
+/*=============== ABOUT ===============*/
+.about {
+  padding: 2.5rem 0;
+}
+
+.about__container {
+  display: grid;
+  row-gap: 2rem;
+}
+
+.about__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 1rem;
+}
+
+.about__description {
+  font-size: var(--small-font-size);
+}
+
+.about__content {
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.about__content-title {
+  font-size: var(--h3-font-size);
+  margin-bottom: 1rem;
+}
+
+.about__content-description {
+  font-size: var(--small-font-size);
+}
+
+.about__content-link {
+  color: var(--first-color);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.about__content-link:hover {
+  text-decoration: underline;
+}
+
 /*=============== FOOTER ===============*/
 .footer__container {
   row-gap: 2.5rem;
@@ -780,8 +835,9 @@ body.dark-theme {
 
 .footer__content {
   grid-template-columns: repeat(2, max-content);
-  gap: 2.5rem 8rem;
-  /* original: gap: 2.5rem 4rem; */
+  /* gap: 2.5rem 8rem; */
+  /* original:  */
+  gap: 2.5rem 4rem;
 }
 
 .footer__title {
@@ -926,7 +982,9 @@ body.dark-theme {
   }
 
   .home__container {
-      row-gap: 9.5rem;
+    row-gap: 9.5rem;
+    border-radius: 0;
+    overflow: hidden;
   }
 
   .logos__container {
@@ -1042,7 +1100,7 @@ body.dark-theme {
   }
   .nav__list{
     display: flex;
-    column-gap: 1.5rem;
+    column-gap: 1rem;
   }
   .nav__link{
     color: var(--text-color-light);
@@ -1102,8 +1160,9 @@ body.dark-theme {
   .home__img{
     width: 472px;
     height: 634px;
-    /* border-radius: 236px 236px 12px 12px; */
-    bottom: 30rem;
+    border-radius: 236px 236px 12px 12px;
+    bottom: 10rem;
+    /* bottom: 30rem; original com imagem*/
   }
 
   .logos__img img{
