@@ -467,6 +467,9 @@ body.dark-theme {
 }
 
 .popular__img {
+  width: 100%; /* Garante que todas as imagens ocupem toda a largura do contêiner */
+  height: 200px; /* Define uma altura fixa para padronizar */
+  object-fit: cover; /* Mantém a proporção e corta o excesso para preencher */
   border-radius: 1rem;
   margin-bottom: 1rem;
 }
